@@ -52,3 +52,4 @@ verifica (idlivro,idaluno,data1,data2,sit) hoje
   |precede hoje data1 = False
   |(precede data1 hoje || data1 == hoje) && precede data1 data2 && (precede hoje data2 || hoje == data2) = True
   |otherwise = False
+  --heitorbundao
